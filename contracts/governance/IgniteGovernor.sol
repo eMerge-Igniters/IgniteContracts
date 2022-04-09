@@ -17,7 +17,7 @@ contract IgniteGovernor is Governor, GovernorCountingSimple, GovernorVotes, Gove
     {}
 
     function votingDelay() public pure override returns (uint256) {
-        return 6575; // 1 day
+        return 0; // instant
     }
 
     function votingPeriod() public pure override returns (uint256) {
